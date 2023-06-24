@@ -1,0 +1,88 @@
+body{
+    background-image: url('images/space.jpeg');
+    color: white;
+    font-family:Marker Felt, fantasy
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.inline{
+    display: inline;
+    margin: unset;
+    text-align: center;
+}
+
+a:visited{
+    color: rgb(142, 152, 171);
+}
+
+a{
+    color:rgb(255, 255, 255);
+}
+
+.navLinks{
+    display: inline;
+    text-align: center;
+    margin: 30px;
+    border-bottom: double rgb(0, 0, 0);
+}
+
+.main .navLinks{
+    display: block;
+    text-align: center;
+    margin: 30px;
+    border: none;
+}
+
+.learnMore{
+    display:block;
+    margin-bottom: -50px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    border:groove;
+}
+
+fieldset{
+    border: none;
+    margin: auto;
+    padding: auto;
+}
+label{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+textarea{
+    display: block;
+    background-color: rgba(191, 191, 186, 0.231);
+    color: white;
+    margin: auto;
+}
+
+.comments, .exit{
+    text-align: center;
+}
+
+input[type = "text"]{
+    background-color: rgba(191, 191, 186, 0.231);
+    color: white;
+}
+input[type = "submit"]{
+    background-color: rgba(0, 37, 131, 0.519);
+    color: white;
+    min-width: 30%;
+    display: block;
+    margin: auto;
+}

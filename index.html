@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Solar System</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <h1>Welcome To Our Solar System</h1>
+    <div id = "introduction" class = "main">
+        <header>
+            <p>Our solar system is an amazing place. Planets (including our own) all revolving around a large ball of fire! Of course, it's more than just fire, but this website is focused on the planets within our solar system. If you want to learn more about <a href="https://en.wikipedia.org/wiki/Sun">our sun</a>, there are plenty of resources out there on the internet for you to check out!</p>
+            <nav>
+            <p class = "learnMore">Click on the planet you'd like to learn more about! </p>
+                <ul>
+                    <li class = "navLinks">
+                        <img src = "images/Sun.png" alt = "Sun" width = "1000">
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "mercury.html" ><img src="images/Mercury.png" alt="Mercury" width="100">Mercury</a>
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "venus.html"><img src="images/Venus.png" alt="Venus" width = "150">Venus</a>
+                        
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "earth.html"><img src="images/Earth.png" alt="Earth" width = "150">Earth</a>
+                        
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "mars.html"><img src="images/Mars.png" alt="Mars" width = "120">Mars</a>
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "jupiter.html"><img src="images/Jupiter.png" alt="Jupter" width = "500">Jupiter</a>
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "saturn.html"><img src="images/Saturn.png" alt="Saturn" width = "1000">Saturn</a>
+
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "uranus.html"><img src="images/Uranus.png" alt="Uranus" width = "300">Uranus</a>
+                    </li>
+                    <li  class = "navLinks">
+                        <a href = "neptune.html"><img src="images/Neptune.png" alt="Neptune" width = "250">Neptune</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+    </div>
+    
+    <div id = "outro">
+        <p class = "exit">I hope you enjoyed learning more about the planets in our solar system! If you have time to spare, please complete the short survey below.</p>
+        <form>
+            <fieldset>
+                <label for = "name">
+                    Name:
+                    <input id = "name" type = "text" placeholder = "Enter your name.." required>
+                </label>
+                <label for = "enjoyed">
+                    <input id = "enjoyed" type = "radio" name = "enjoyment" required> I enjoyed this site!
+                </label>
+                <label for = "didntEnjoy">
+                    <input id = didntEnjoy type = "radio" name = "enjoyment"> I didn't enjoy this site.
+                </label>
+                <label class = "comments">
+                    Leave additional comments for me here!
+                    <textarea rows = 10 cols = 30 placeholder = "type here..."></textarea>
+                </label>
+            </fieldset>
+            <input type = "submit">
+        </form>
+    </div>
+</body>
+</html>
