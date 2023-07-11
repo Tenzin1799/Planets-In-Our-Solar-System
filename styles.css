@@ -20,7 +20,11 @@ img{
 }
 
 .main .navLinks:not(.sun) img:hover{
-    transform: scale(1.5);
+    transform: scale(2);
+}
+
+.main .navLinks.big img:hover{
+    transform: scale(1.10);
 }
 
 a:visited{
