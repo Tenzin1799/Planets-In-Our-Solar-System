@@ -28,6 +28,10 @@ img{
     transform: scale(1.10);
 }
 
+.main .navLinks div:not(.sun){
+    margin: 15% 0;
+}
+
 a:visited{
     color: rgb(142, 152, 171);
 }
