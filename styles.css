@@ -17,7 +17,7 @@ img{
 }
 
 .main .navLinks img{
-    transition: all .3s;
+    transition: all 1s;
 }
 
 .main .navLinks :not(.sun) img:hover{
@@ -28,8 +28,52 @@ img{
     transform: scale(1.10);
 }
 
+.main .navLinks .medium img:hover{
+    transform: scale(1.5);
+}
+
 .main .navLinks div:not(.sun){
-    margin: 15% 0;
+    margin: 50% 0;
+}
+
+.main .navLinks .sun img{
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.main .navLinks .sun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:not(.main) img{
+    max-width: 100vw;
+    height: auto;
+}
+
+.main{
+    overflow: hidden;
+}
+
+.main p{
+    margin: 20px;
+}
+
+.main .navLinks .small img{
+    width: 20%;
+}
+
+.main .navLinks .medium img{
+    width: 40%;
+}
+
+.main .navLinks .big img{
+    width: 70%;
+}
+
+.main .navLinks .saturn img{
+    width: 100%;
 }
 
 a:visited{
