@@ -39,7 +39,9 @@ img{
 .main .navLinks .sun img{
     min-width: 100vw;
     max-width: 100vw;
+    padding-top: -10%;
 }
+
 
 .main .navLinks .sun{
     display: flex;
