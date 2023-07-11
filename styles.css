@@ -15,6 +15,14 @@ img{
     text-align: center;
 }
 
+.main .navLinks img{
+    transition: all .3s;
+}
+
+.main .navLinks:not(.sun) img:hover{
+    transform: scale(1.5);
+}
+
 a:visited{
     color: rgb(142, 152, 171);
 }
